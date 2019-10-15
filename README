@@ -1,0 +1,15 @@
+Mary Papandrea
+HW2
+
+1. Draw mode 7:
+Yoou need to get diffuse color along with the light color and power (actual light defined in main). Multiply these by cosine theta (normalize the vertex normal and the light direction). Im not sure if the distance thing was necessary but i put it in anyways becuase i think it looked better
+
+2. Draw mode 8:
+This used diffuse as well as specular color (just .3,.3,.3) and the inverse of the cosine theta which i attsined using the eye direction.
+
+3. Draw mode 9:
+this one was easy, its just mixing the cosine theta from 8 with the tex_night and tex_color.
+
+Overall i tried to make this as modular as possible. all funtions are defined above the main.
+
+
